@@ -32,10 +32,6 @@ public class KeyListenerDemo {
             @Override
             public void keyPressed(KeyEvent e) {
                 field1.setText(e.getKeyCode() + "");
-
-                if (e.getKeyCode() == VK_O || e.getKeyCode() == VK_E) {
-                    field1.setText("vowel!");
-                }
             }
 
             @Override

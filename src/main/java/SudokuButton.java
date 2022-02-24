@@ -22,11 +22,6 @@ public class SudokuButton extends JButton implements KeyListener {
         // To interact with the current SudokuButton, use: this
         // For instance, if we wanted to get the text of the
         // current button, we'd say: this.getText()
-        int code = e.getKeyCode();
-
-        if (code >= '0' && code <= '9') {
-            this.setText((e.getKeyCode() - '0') + "");
-        }
     }
 
     // when the key goes up
@@ -42,7 +37,7 @@ public class SudokuButton extends JButton implements KeyListener {
 
     }
 
-    // Dont worry about this, this just changes the minimum size of a button
+    // Don't worry about this, this just changes the minimum size of a button
     @Override
     public Dimension getPreferredSize() {
         Dimension size = new Dimension();
