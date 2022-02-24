@@ -1,6 +1,6 @@
-# Week 8 Day 1: GUI Classes and ActionListener Interface
+# Week 8 Day 2: More Listeners
 
-In class today, we'll be working with GUI Classes and the ActionListener Interface. 
+In class today, we'll be working with more listeners. 
 
 <br />
 
