@@ -41,8 +41,8 @@ public class SudokuButton extends JButton implements KeyListener {
     @Override
     public Dimension getPreferredSize() {
         Dimension size = new Dimension();
-        size.width = 30;
-        size.height = 30;
+        size.width = 50;
+        size.height = 50;
         return size;
     }
 }
