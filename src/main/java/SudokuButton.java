@@ -21,13 +21,11 @@ public class SudokuButton extends JButton {
 
             // Leave this blank
             @Override
-            public void keyReleased(KeyEvent e) {
-            }
+            public void keyReleased(KeyEvent e) {}
 
             // Leave this blank
             @Override
-            public void keyTyped(KeyEvent e) {
-            }
+            public void keyTyped(KeyEvent e) {}
         });
     }
 
